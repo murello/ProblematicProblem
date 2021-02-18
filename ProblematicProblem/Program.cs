@@ -127,8 +127,8 @@ namespace ProblematicProblem
 
                 int randomNumber = rng.Next(activities.Count);
 
-                //string randomActivity = activities[randomNumber];
-                string randomActivity = "Wine Tasting";
+                string randomActivity = activities[randomNumber];
+                
 
                 if (userAge < 21 && randomActivity == "Wine Tasting")
                 {
